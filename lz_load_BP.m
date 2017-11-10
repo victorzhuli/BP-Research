@@ -1,5 +1,9 @@
 function PPG_seg = lz_load_BP(file_idx)
 
+%%%% load raw data
+%%%% input  - file_idx: 1 or 2, index of the dataset
+%%%% output - raw PPG signals, number_time_points x number_trials
+
 % sampling rate
 srate = 10000;
 len_trial = 12*srate; % length of trial (12 seconds)
