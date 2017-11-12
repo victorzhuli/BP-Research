@@ -51,4 +51,3 @@ for iWin = 1:5
     subplot(4,5,iWin+15); imagesc(PPGvg(:,:,iWin,12));
 end
 
-%% save for CNN
